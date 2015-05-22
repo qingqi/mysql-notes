@@ -1,0 +1,12 @@
+CHAR and VARCHAR
+
+CHAR: fixed length, 0~255 characters, insert: right padding, retrieve: padding removed (including pads inserted)
+
+VARCHAR: variable length, 1~2 bytes prefix (indicating the number of bytes in the value) plus 0~65535 characters. 
+
+MySQL maximum row size: 65535 bytes (among all columns)
+
+character set collation
+
+All MySQL collations are of type PADSPACE. This means that all CHAR, VARCHAR, TEXT values in MySQL are compared 
+without regard to any trailing spaces. "Comparision" in this context does not include LIKE pattern-matching operator.
