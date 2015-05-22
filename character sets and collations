@@ -1,0 +1,16 @@
+A character set is a set of symbols and encodings. 
+A collation is a set of rules for comparing characters in a character set.
+
+Suppose we have an alphabet with four letters: 'A', 'B', 'a', 'b'. 
+We give each letter a number: 'A' = 0, 'B' = 1, 'a' = 2, 'b' = 3.
+The letter 'A' is a symbol, the number 0 is encoding of 'A'.
+The combination of all four letters and their encoding is a character set.
+
+binary collation. -bin
+case-insensitive collation. -ci, -cs
+
+MySQL do a lot of things for you:
+Store strings using a variety of character sets.
+Compare strings using a variety of collations.
+Mix strings with different character sets or collations in the same server, database, or even the same table.
+enable specification of character set and collation at any level.
