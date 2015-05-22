@@ -1,9 +1,10 @@
 locale:
 
-In computing, a locale is a set of parameters that defines the user's language, country and any special variant preferences 
+wiki: In computing, a locale is a set of parameters that defines the user's language, country and any special variant preferences 
 that the user wants to see in their user interface. 
 Usually a locale identifier consists of at least a language identifier and a region identifier.
 
+java: Locales identify a specific language and geographic region. 
 
 In Java:
 A java.util.Locale is a lightweight object that contains only a few important members:
@@ -16,3 +17,7 @@ When writing or talking about locales, you can use a text abbreviation for a con
 This notation separates each component of a locale with an underscore character:
 
 <language code>[_<country code>[_<variant code>]] 
+
+
+[1] http://www.oracle.com/technetwork/articles/javase/locale-140624.html
+[2] http://en.wikipedia.org/wiki/Locale
