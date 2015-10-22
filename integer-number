@@ -1,0 +1,17 @@
+
+Type	    Storage	  Minimum Value	        Maximum Value
+          (Bytes)   (Signed/Unsigned)	    (Signed/Unsigned)
+TINYINT	  1	        -128	                127
+                    0	                    255
+SMALLINT	2	        -32768	              32767
+                    0	                    65535
+MEDIUMINT	3	        -8388608	            8388607
+                    0	                    16777215
+INT	      4	        -2147483648	          2147483647
+                    0	                    4294967295
+BIGINT	  8	        -9223372036854775808	9223372036854775807
+                    0	                    18446744073709551615
+
+
+
+For an integer type (the value in parentheses called the display width of the field. This is different from (and somewhat less intuitive than) the parenthesised value in character fields—such as VARCHAR(10)—where it's the maximum number of characters you can store in the field, and for floating types where it describes the total number of digits you can store. 
