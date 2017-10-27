@@ -1,0 +1,3 @@
+The main differences between InnoDB and MyISAM ("with respect to designing a table or database" you asked about) are support for "referential integrity" and "transactions".
+
+If you need the database to enforce foreign key constraints, or you need the database to support transactions then you would choose the InnoDB engine, since these features are absent from the MyISAM engine.
