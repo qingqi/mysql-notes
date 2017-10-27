@@ -1,0 +1,7 @@
+datetime: store the date and time packed into an integer in YYYYMMDDHHMMSS format, independent of time zone. (8 bytes of storage space)
+timestamp: stores the number of seconds elapsed since midnight, January 1, 1970, GMT (Same as Unix timestamp). (4 bytes of storage space) The value of timestamp depends on the time zone. The mysql server, operating system, client connection all have time zone settings.
+
+
+datetime: 8 Bytes, time zone independent, seconds precision, larger value range
+timestamp: 4 Bytes, time zone dependent, seconds precision, smaller value range, auto update for record insertion and update
+
