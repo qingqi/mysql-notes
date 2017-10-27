@@ -1,0 +1,15 @@
+TINYINT: 1 byte	
+SMALLINT: 2 bytes	
+MEDIUMINT: 3 bytes	   
+INT: 4 bytes	
+BIGINT: 8 bytes
+
+signed and unsigned
+
+For an integer type (the value in parentheses called the display width of the field. This is different from (and somewhat less intuitive than) the parenthesised value in character fields—such as VARCHAR(10)—where it's the maximum number of characters you can store in the field, and for floating types where it describes the total number of digits you can store. 
+
+
+real number:
+float: 4 bytes
+double: 8 bytes
+decimal(M,D): 4 bytes for 9 digits + 1 decimal point byte
