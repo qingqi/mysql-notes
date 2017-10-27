@@ -1,0 +1,11 @@
+Index is implemented in the storage engine layer, not in the server layer. So that indexing works differently in each engine, even for the same type of index.
+
+B-Tree index (MyISAM, InnoDB)
+values are stored in order
+each leaf page is the same distance from the root
+Query: searching for ranges of data, key prefix, full key value ( index on multiple columns, order matters)
+
+Index-only query?
+
+
+Hash index
