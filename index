@@ -8,4 +8,5 @@ Query: searching for ranges of data, key prefix, full key value ( index on multi
 Index-only query?
 
 
-Hash index
+Hash index (memory storage engine)
+use cases: lookup table in star schema
