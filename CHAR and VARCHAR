@@ -6,6 +6,7 @@ VARCHAR: variable length, 1~2 bytes prefix (indicating the number of bytes in th
 
 MySQL maximum row size: 65535 bytes (among all columns)
 
+character set 
 character set collation
 
 All MySQL collations are of type PADSPACE. This means that all CHAR, VARCHAR, TEXT values in MySQL are compared 
