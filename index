@@ -12,5 +12,10 @@ Hash index (memory storage engine)
 use cases: lookup table in star schema
 
 
-clustered index
+clustered index (innodb)
 When a table has a clustered index, its rows are actually stored in the index’s leaf pages. The term “clustered” refers to the fact that rows with adjacent key values are stored close to each other.
+
+only one per-table
+
+secondary index (non-clustered)
+Secondary (nonclustered) indexes can be larger than you might expect, because their leaf nodes contain the primary key columns of the referenced rows. Secondary index accesses require two index lookups instead of one.
