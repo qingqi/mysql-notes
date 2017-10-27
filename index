@@ -10,3 +10,7 @@ Index-only query?
 
 Hash index (memory storage engine)
 use cases: lookup table in star schema
+
+
+clustered index
+When a table has a clustered index, its rows are actually stored in the index’s leaf pages. The term “clustered” refers to the fact that rows with adjacent key values are stored close to each other.
