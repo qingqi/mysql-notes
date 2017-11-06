@@ -19,3 +19,7 @@ only one per-table
 
 secondary index (non-clustered)
 Secondary (nonclustered) indexes can be larger than you might expect, because their leaf nodes contain the primary key columns of the referenced rows. Secondary index accesses require two index lookups instead of one.
+
+
+covering index
+An index that contains (or “covers”) all the data needed to satisfy a query is called a covering index.
